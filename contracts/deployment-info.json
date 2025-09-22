@@ -1,0 +1,32 @@
+{
+  "network": {
+    "name": "sepolia",
+    "chainId": "11155111"
+  },
+  "adminAddress": "0xDA2D9bAf72B034cF466fDd5bB2F3cb24164a62FC",
+  "contracts": {
+    "bxcToken": {
+      "address": "0x40a6927D7937D2Ed206f6De90A43c15e1f2a6351",
+      "name": "My BXC Token",
+      "symbol": "BXC",
+      "owner": "0xDA2D9bAf72B034cF466fDd5bB2F3cb24164a62FC"
+    },
+    "usdtToken": {
+      "address": "0xee4f09627eB6776348352D200a6a54d491BdE7B1",
+      "name": "My USDT Token",
+      "symbol": "USDT",
+      "owner": "0xDA2D9bAf72B034cF466fDd5bB2F3cb24164a62FC"
+    },
+    "cryptoWallet": {
+      "address": "0x09E3B1187489F7681236E8882226529C0194Cf91",
+      "name": "MyCryptoWallet",
+      "version": "2.0.0",
+      "owner": "0xDA2D9bAf72B034cF466fDd5bB2F3cb24164a62FC",
+      "supportedTokens": {
+        "usdt": "0xee4f09627eB6776348352D200a6a54d491BdE7B1",
+        "bxc": "0x40a6927D7937D2Ed206f6De90A43c15e1f2a6351"
+      }
+    }
+  },
+  "deploymentTime": "2025-09-22T07:35:23.443Z"
+}

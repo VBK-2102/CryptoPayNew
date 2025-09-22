@@ -1,0 +1,23 @@
+{
+  "name": "my-crypto-contracts",
+  "version": "1.0.0",
+  "description": "Custom smart contracts for crypto payment platform",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run deploy.js --network localhost",
+    "deploy-sepolia": "npx hardhat run deploy.js --network sepolia",
+    "test": "npx hardhat test",
+    "verify": "npx hardhat verify"
+  },
+  "keywords": ["solidity", "smart-contracts", "crypto", "wallet"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.17.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0"
+  }
+}
