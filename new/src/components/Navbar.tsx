@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
 
   // Check if admin wallet is connected (contract owner address)
   const ADMIN_WALLET_ADDRESSES = [
-    "0xDA2D9bAf72B034cF466fDd5bB2F3cb24164a62FC"
+    "0x7B5af30A221A5c27b74cFe4A5397a84c8cdDc2D1"
   ]
   const isAdminWalletConnected =
     isAdmin &&

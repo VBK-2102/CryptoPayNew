@@ -105,7 +105,7 @@ const AdminWithdrawals: React.FC = () => {
       if (web3 && isConnected) {
         // Admin address
         const adminAddresses = [
-    '0xDA2D9bAf72B034cF466fDd5bB2F3cb24164a62FC'
+    '0x7B5af30A221A5c27b74cFe4A5397a84c8cdDc2D1'
   ]
         setOwnerAddress(adminAddresses[0]) // Set first one as primary for display
       }
@@ -595,7 +595,7 @@ const AdminWithdrawals: React.FC = () => {
         </h1>
         <p style={{ margin: '0 0 1rem 0', fontSize: '1.1rem' }}>
           Process pending withdrawals via smart contract (Crypto → INR & INR → Crypto)
-          <><br/>Admin Address: <code>0xDA2D9bAf72B034cF466fDd5bB2F3cb24164a62FC</code></>
+          <><br/>Admin Address: <code>0x7B5af30A221A5c27b74cFe4A5397a84c8cdDc2D1</code></>
         </p>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div>
@@ -667,7 +667,7 @@ const AdminWithdrawals: React.FC = () => {
         </div>
         {(() => {
           const adminAddresses = [
-    '0xDA2D9bAf72B034cF466fDd5bB2F3cb24164a62FC'
+    '0x7B5af30A221A5c27b74cFe4A5397a84c8cdDc2D1'
   ]
           const isAdminWallet = account && adminAddresses.some(addr => addr.toLowerCase() === account.toLowerCase())
           
@@ -707,7 +707,7 @@ const AdminWithdrawals: React.FC = () => {
               const createdAt = withdrawal.createdAt?.toDate?.() || new Date()
               const formattedDate = createdAt.toLocaleString()
               const adminAddresses = [
-    '0xDA2D9bAf72B034cF466fDd5bB2F3cb24164a62FC'
+    '0x7B5af30A221A5c27b74cFe4A5397a84c8cdDc2D1'
   ]
               const isAdminWallet = account && adminAddresses.some(addr => addr.toLowerCase() === account.toLowerCase())
               const shouldDisable = (supportsPausedCheck && isPaused) || !isAdminWallet

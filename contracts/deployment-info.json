@@ -3,30 +3,30 @@
     "name": "sepolia",
     "chainId": "11155111"
   },
-  "adminAddress": "0xDA2D9bAf72B034cF466fDd5bB2F3cb24164a62FC",
+  "adminAddress": "0x7B5af30A221A5c27b74cFe4A5397a84c8cdDc2D1",
   "contracts": {
     "bxcToken": {
-      "address": "0x40a6927D7937D2Ed206f6De90A43c15e1f2a6351",
+      "address": "0x30DaD39B38efEAb83bb3CBb87A75f70F95a8aD06",
       "name": "My BXC Token",
       "symbol": "BXC",
-      "owner": "0xDA2D9bAf72B034cF466fDd5bB2F3cb24164a62FC"
+      "owner": "0x7B5af30A221A5c27b74cFe4A5397a84c8cdDc2D1"
     },
     "usdtToken": {
-      "address": "0xee4f09627eB6776348352D200a6a54d491BdE7B1",
+      "address": "0x33753b11A5a1096b6fEE2c1cf434c53eAc537BCC",
       "name": "My USDT Token",
       "symbol": "USDT",
-      "owner": "0xDA2D9bAf72B034cF466fDd5bB2F3cb24164a62FC"
+      "owner": "0x7B5af30A221A5c27b74cFe4A5397a84c8cdDc2D1"
     },
     "cryptoWallet": {
-      "address": "0x09E3B1187489F7681236E8882226529C0194Cf91",
+      "address": "0x38fFcD11C6c7e692BE466392D661750E7475AD80",
       "name": "MyCryptoWallet",
       "version": "2.0.0",
-      "owner": "0xDA2D9bAf72B034cF466fDd5bB2F3cb24164a62FC",
+      "owner": "0x7B5af30A221A5c27b74cFe4A5397a84c8cdDc2D1",
       "supportedTokens": {
-        "usdt": "0xee4f09627eB6776348352D200a6a54d491BdE7B1",
-        "bxc": "0x40a6927D7937D2Ed206f6De90A43c15e1f2a6351"
+        "usdt": "0x33753b11A5a1096b6fEE2c1cf434c53eAc537BCC",
+        "bxc": "0x30DaD39B38efEAb83bb3CBb87A75f70F95a8aD06"
       }
     }
   },
-  "deploymentTime": "2025-09-22T07:35:23.443Z"
+  "deploymentTime": "2025-09-23T06:10:10.533Z"
 }

@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 /**
  * @title MyBXCToken
  * @dev Your custom BXC Token - A custom ERC20 token for your CryptoWallet platform
- * @dev Owner: 0xDA2D9bAf72B034cF466fDd5bB2F3cb24164a62FC
+ * @dev Owner: 0x7B5af30A221A5c27b74cFe4A5397a84c8cdDc2D1
  */
 contract MyBXCToken is ERC20, Ownable {
     
@@ -44,7 +44,7 @@ contract MyBXCToken is ERC20, Ownable {
     
     /**
      * @dev Transfer ownership to your admin address
-     * @param newOwner Your admin address: 0xDA2D9bAf72B034cF466fDd5bB2F3cb24164a62FC
+     * @param newOwner Your admin address: 0x7B5af30A221A5c27b74cFe4A5397a84c8cdDc2D1
      */
     function transferOwnership(address newOwner) public override onlyOwner {
         require(newOwner != address(0), "New owner cannot be zero address");

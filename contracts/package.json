@@ -10,7 +10,12 @@
     "test": "npx hardhat test",
     "verify": "npx hardhat verify"
   },
-  "keywords": ["solidity", "smart-contracts", "crypto", "wallet"],
+  "keywords": [
+    "solidity",
+    "smart-contracts",
+    "crypto",
+    "wallet"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "devDependencies": {
@@ -18,6 +23,7 @@
     "hardhat": "^2.17.0"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^4.9.0"
+    "@openzeppelin/contracts": "^4.9.0",
+    "dotenv": "^17.2.2"
   }
 }
