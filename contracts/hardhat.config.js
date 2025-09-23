@@ -1,5 +1,4 @@
 require("@nomicfoundation/hardhat-toolbox");
-require("dotenv").config({ path: "./.env" });
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
@@ -17,8 +16,8 @@ module.exports = {
       url: "http://127.0.0.1:8545"
     },
     sepolia: {
-      url: "https://sepolia.infura.io/v3/274652f7e2a2472b8c64593c6031e1ad",
-      accounts: ["69c0809402f6dcf757bd5ef83aafa39c672febbdf822212d9ae15bccb97e8e2b"],
+      url: "https://sepolia.infura.io/v3/1d504dd7021a412389e171f26263ead4",
+      accounts: ["f5eb34517c2e80c6a1521fe3302b143ed1b9a5027061dc59327e8a685f4794d5"],
       gasPrice: "auto"
     }
   },

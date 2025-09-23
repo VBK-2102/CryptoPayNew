@@ -4,25 +4,7 @@ async function main() {
     console.log("🚀 Starting deployment of your custom contracts...");
     
     // Your admin address
-    const ADMIN_ADDRESS = "0x7B5af30A221A5c27b74cFe4A5397a84c8cdDc2D1";
-    
-    // Debug environment variables
-    console.log("Environment variables:");
-    console.log("SEPOLIA_RPC_URL:", process.env.SEPOLIA_RPC_URL);
-    console.log("PRIVATE_KEY length:", process.env.PRIVATE_KEY ? process.env.PRIVATE_KEY.length : "undefined");
-    console.log("ADMIN_ADDRESS:", process.env.ADMIN_ADDRESS);
-    
-    // Get the deployer account
-    const signers = await ethers.getSigners();
-    console.log("Number of signers found:", signers.length);
-    
-    if (signers.length === 0) {
-        throw new Error("No signers found. Check your private key configuration.");
-    }
-    
-    const deployer = signers[0];
-    console.log("Deploying contracts with account:", deployer.address);
-    console.log("Account balance:", (await deployer.provider.getBalance(deployer.address)).toString());
+    const ADMIN_ADDRESS = "0xDA2D9bAf72B034cF466fDd5bB2F3cb24164a62FC";
     
     // Get the contract factories
     const MyBXCToken = await ethers.getContractFactory("MyBXCToken");

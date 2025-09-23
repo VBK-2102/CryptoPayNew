@@ -2,7 +2,7 @@
 export const CONTRACT_CONFIG = {
   networks: {
     sepolia: {
-      chainId: '0xaa36a7', // 11155111 in hex
+      chainId: '11155111', // 11155111 in hex
       chainName: 'Sepolia test network',
       nativeCurrency: {
         name: 'SepoliaETH',
@@ -15,9 +15,9 @@ export const CONTRACT_CONFIG = {
     }
   },
   contracts: {
-    cryptoWallet: '0x38fFcD11C6c7e692BE466392D661750E7475AD80', // CryptoWallet v2.0.0 deployed on Sepolia
-    usdt: '0x33753b11A5a1096b6fEE2c1cf434c53eAc537BCC', // USDT on Sepolia
-    bxc: '0x30DaD39B38efEAb83bb3CBb87A75f70F95a8aD06'  // BXC Token deployed on Sepolia
+    cryptoWallet: '0x09E3B1187489F7681236E8882226529C0194Cf91', // CryptoWallet v2.0.0 deployed on Sepolia
+    usdt: '0xee4f09627eB6776348352D200a6a54d491BdE7B1', // USDT on Sepolia
+    bxc: '0x40a6927D7937D2Ed206f6De90A43c15e1f2a6351'  // BXC Token deployed on Sepolia
   }
 }
 
